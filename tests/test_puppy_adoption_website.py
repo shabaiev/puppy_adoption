@@ -109,7 +109,7 @@ def test_verify_cart_calculates_total_price_correctly(browser):
     assert_that(cart_page.cart.total == brooks_fee + twinkies_fee + tipsy_fee)
     assert_that(len(cart_page.cart.puppies_in_the_cart) == 3)
 
-
+#2 Required scenario
 def test_adopt_sparky_add_collar_and_leash_pay_with_credit_card(browser):
     puppies_added_to_cart: int = 0
 
@@ -145,7 +145,7 @@ def test_adopt_sparky_add_collar_and_leash_pay_with_credit_card(browser):
     notice = browser.find_element_by_xpath("//p[@id='notice']").text
     assert_that(notice).is_equal_to_ignoring_case('Thank you for adopting a puppy!')
 
-
+#1 Required scenario
 def test_adopt_brook_with_chewy_toy_and_a_travel_carrie_pay_with_check(browser):
     puppies_added_to_cart: int = 0
 
@@ -182,7 +182,7 @@ def test_adopt_brook_with_chewy_toy_and_a_travel_carrie_pay_with_check(browser):
     notice = browser.find_element_by_xpath("//p[@id='notice']").text
     assert_that(notice).is_equal_to_ignoring_case('Thank you for adopting a puppy!')
 
-
+#3 Reruired scenario
 def test_adopt_2_random_dogs_add_collar_and_leash_to_each_pay_with_credit_card(browser):
     puppies = AdoptPuppy(browser=browser).puppy_list
     random_puppy_1_index = random.randint(0, len(puppies))
