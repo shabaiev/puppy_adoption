@@ -110,7 +110,7 @@ python3 -m pytest tests/
      #### Actual results:
          The click on the icon returns “The page you were looking for doesn’t exist”
      #### Screenshots:
-     screen_shot_3:
+     screen_shot_3
      ![](https://i.ibb.co/yFVKtCF/3.png)
    </details>
 
@@ -171,7 +171,7 @@ python3 -m pytest tests/
       #### Actual results:
           The window pops up second time after user clicks on a button in a window
       #### Screenshots:
-        screen_shot_6:
+        screen_shot_6
       ![](https://i.ibb.co/rwVW04K/6.png)
    </details>
  
@@ -192,7 +192,7 @@ python3 -m pytest tests/
       #### Actual results:
           Massage says “Your car is currently empty”
       #### Screenshots:
-       screen_shot_7:
+       screen_shot_7
       ![](https://i.ibb.co/fdBKph4/7.png)
    </details>
 
@@ -313,9 +313,9 @@ python3 -m pytest tests/
       #### Actual results:
           User is able to pass only non-alphanumeric characters in required fields complete adoption
       #### Screenshots:
-      screen_shot_12.1:
+      screen_shot_12.1
       ![](https://i.ibb.co/JmN8TLZ/12-1.png)
-      screen_shot_12.2:
+      screen_shot_12.2
       ![](https://i.ibb.co/L1mSJbP/12-2.png)
    </details>
 
@@ -334,6 +334,6 @@ python3 -m pytest tests/
       #### Actual results:
           Some css files return 404 status code
       #### Screen shots:
-      screen_shot_13:
+      screen_shot_13
       ![](https://i.ibb.co/ZgPLytb/13.png)
    </details>
