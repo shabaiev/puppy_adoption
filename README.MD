@@ -272,7 +272,7 @@ python3 -m pytest tests/
       screen_shot_10_5
       ![](https://i.ibb.co/5j7Bcb0/10-5.png)
    
-   </deatils>
+   </details>
 
 
 1. Summary: The cart doesn't have an option to remove one puppy from a list when you added several. The only option is to clean the list with the "Change your mind" button.
@@ -310,7 +310,7 @@ python3 -m pytest tests/
       
       #### Expected result:
           User should not be able to pass only non-alphanumeric characters in required fields and complete adoption
-      ####A ctual results:
+      #### Actual results:
           User is able to pass only non-alphanumeric characters in required fields complete adoption
       #### Screenshots:
       screen_shot_12.1:
