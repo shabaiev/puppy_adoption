@@ -73,9 +73,9 @@ python3 -m pytest tests/
       Button click returns the error “The page you were looking for doesn’t exist” on UI and 404 error for HTML file
       
       #### Screenshots:
-      screen_shot_1.1
+      screenshot_1.1
       ![](https://i.ibb.co/7ncs2CD/1-1.png)
-      screen_shot_1.2
+      screenshot_1.2
       ![](https://i.ibb.co/C8P5ydc/1-2.png)
     </details>
 
@@ -93,7 +93,7 @@ python3 -m pytest tests/
       #### Actual results:
           Click on the button returns “The site can’t be reached” error
       #### Screenshots:
-      screen_shot_2
+      screenshot_2
        ![](https://i.ibb.co/sbYMFxx/2.png)
    </details>
 
@@ -110,7 +110,7 @@ python3 -m pytest tests/
      #### Actual results:
          The click on the icon returns “The page you were looking for doesn’t exist”
      #### Screenshots:
-     screen_shot_3
+     screenshot_3
      ![](https://i.ibb.co/yFVKtCF/3.png)
    </details>
 
@@ -128,7 +128,7 @@ python3 -m pytest tests/
       #### Actual results:
           The input data can not be send
       #### Screenshots:
-      screen_shot_4
+      screenshot_4
       ![](https://i.ibb.co/XSQcg6V/4.png)
    </details>
 
@@ -149,7 +149,7 @@ python3 -m pytest tests/
       #### Actual results:
       The calculation returns an incorrect number
       #### Screenshots:
-      screen_shot_5
+      screenshot_5
       ![](https://i.ibb.co/TKcLjtz/5.png)
    </details>
 
@@ -171,7 +171,7 @@ python3 -m pytest tests/
       #### Actual results:
           The window pops up second time after user clicks on a button in a window
       #### Screenshots:
-        screen_shot_6
+        screenshot_6
       ![](https://i.ibb.co/rwVW04K/6.png)
    </details>
  
@@ -192,7 +192,7 @@ python3 -m pytest tests/
       #### Actual results:
           Massage says “Your car is currently empty”
       #### Screenshots:
-       screen_shot_7
+       screenshot_7
       ![](https://i.ibb.co/fdBKph4/7.png)
    </details>
 
@@ -212,9 +212,9 @@ python3 -m pytest tests/
       #### Actual results:
           A selected previously puppy does not disappear from the list and the error does not pop up while the user is selecting the same puppy twice
       #### Screenshots:
-      screen_shot_8_1
+      screenshot_8_1
       ![](https://i.ibb.co/bP5VFXd/8-1.png)
-      screen_shot_8_2
+      screenshot_8_2
       ![](https://i.ibb.co/NKH6KW4/8-2.png)
    </details>
 
@@ -236,9 +236,9 @@ python3 -m pytest tests/
       #### Actual results:
           The message should say “Thank you for adopting a puppy!”
       #### Screenshots:
-      screen_shot_9_1
+      screenshot_9_1
       ![](https://i.ibb.co/M2kcyBq/9-1.png)
-      screen_shot_9_2
+      screenshot_9_2
       ![](https://i.ibb.co/593RK6R/9-2.png)
    </details>
 
@@ -261,15 +261,15 @@ python3 -m pytest tests/
       #### Actual results:
       User without admin rights is able to change fields and remove puppies from the list
       #### Screenshots: 
-      screen_shot_10_1
+      screenshot_10_1
       ![](https://i.ibb.co/mqNFCDP/10-1.png)
-      screen_shot_10_2
+      screenshot_10_2
       ![](https://i.ibb.co/Y8VRLmb/10-2.png)
-      screen_shot_10_3
+      screenshot_10_3
       ![](https://i.ibb.co/qCCZbQ1/10-3.png)
-      screen_shot_10_4
+      screenshot_10_4
       ![](https://i.ibb.co/KqyT4W1/10-4.png)
-      screen_shot_10_5
+      screenshot_10_5
       ![](https://i.ibb.co/5j7Bcb0/10-5.png)
    
    </details>
@@ -291,7 +291,7 @@ python3 -m pytest tests/
       #### Actual results:
           There is no option for user to delete one of the several puppies from the cart
       #### Screenshots: 
-      screen_shot_11
+      screenshot_11
       ![](https://i.ibb.co/bQ7GffV/11.png)
    </details>
 
@@ -313,9 +313,9 @@ python3 -m pytest tests/
       #### Actual results:
           User is able to pass only non-alphanumeric characters in required fields complete adoption
       #### Screenshots:
-      screen_shot_12.1
+      screenshot_12_1
       ![](https://i.ibb.co/JmN8TLZ/12-1.png)
-      screen_shot_12.2
+      screenshot_12_2
       ![](https://i.ibb.co/L1mSJbP/12-2.png)
    </details>
 
@@ -334,6 +334,6 @@ python3 -m pytest tests/
       #### Actual results:
           Some css files return 404 status code
       #### Screen shots:
-      screen_shot_13
+      screenshot_13
       ![](https://i.ibb.co/ZgPLytb/13.png)
    </details>
