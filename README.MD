@@ -64,7 +64,7 @@ python3 -m pytest tests/
       
       #### Steps to reproduce:
       1. Navigate to the website [puppies_adoption](https://puppies.herokuapp.com/)
-      2. Click on the "Poppy Adoption Agency" button in left-right corner of the main page
+      2. Click on the "Puppy Adoption Agency" button in left-right corner of the main page
       
       #### Expected result:
       Button click should refresh the page when the user is on the main page or return the user to the main page if the user is on a different page of the website
